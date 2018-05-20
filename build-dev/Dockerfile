@@ -11,5 +11,5 @@ VOLUME /log
 WORKDIR /app
 EXPOSE 8000
 
-ENTRYPOINT ["usr/local/bin/python"]
+ENTRYPOINT ["/usr/local/bin/python"]
 CMD ["run.py"]
