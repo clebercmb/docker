@@ -19,7 +19,7 @@ logging.basicConfig(
     level=logging.INFO
 )
 
-logging.getLogger().addHandler(loggin.StreamHandler())
+logging.getLogger().addHandler(logging.StreamHandler())
 logging.info('inicializando ...')
 PORT = 8000
 
